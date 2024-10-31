@@ -70,25 +70,25 @@ h1{
 }
 
 .facebook {
-    background-image: url(./images/fb.svg);
+    background-image: url(./../images/fb.svg);
     width: 50px;  
     height: 45px;
 }
 
 .youtube {
-    background-image: url(./images/youtube-123.svg);
+    background-image: url(./../images/youtube-123.svg);
     width: 30px;  
     height: 35px;
 }
 
 .instagram {
-    background-image: url(./images/black-instagram-transparent-logo-10671.svg);
+    background-image: url(./../images/black-instagram-transparent-logo-10671.svg);
     width: 30px; 
     height: 35px; 
 }
 
 .soundcloud {
-    background-image: url(./images/soundcloud-logo-svgrepo-com.svg);
+    background-image: url(./../images/soundcloud-logo-svgrepo-com.svg);
     width: 50px;  
     height: 35px; 
 }
