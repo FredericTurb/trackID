@@ -188,7 +188,7 @@ p{
     gap: 10px;
 }
 
-#sharebutton{
+#sharebutton {
     display: flex; 
     align-items: center; 
     justify-content: flex-start; 
