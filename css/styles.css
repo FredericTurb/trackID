@@ -203,4 +203,38 @@ p{
         font-size: 120%; /* Smaller text size */
     }
 }
+@media (max-width: 768px) {
+    .part4 {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+
+    .bottom-footer-text {
+        font-size: 80%; /* Adjust font size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .part4 {
+        padding: 5px 0; /* Further adjust padding for extra small screens */
+    }
+
+    .bottom-footer-text {
+        font-size: 70%; /* Smaller font size */
+    }
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url('./../images/summertime_image_mobile.webp'); /* Use a different image for mobile */
+        background-size: cover; /* Ensure it covers the entire area */
+        background-position: center; /* Center the image */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('./../images/summertime_image_mobile.webp'); /* You can change the image again if needed */
+        background-size: cover; /* Adjust size */
+        background-position: center; /* Center the image */
+    }
+}
 
