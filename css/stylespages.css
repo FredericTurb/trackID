@@ -34,7 +34,6 @@ h1{
 }
 p{
     color: #fad17a;
-    letter-spacing: em;
     font-size: 1rem; 
     letter-spacing: -0.05em;
     transform: scaleY(1.1);
@@ -59,7 +58,6 @@ p{
 }
 .maintxt{
     color: #fad17a;
-    letter-spacing: em;
     font-size: 1.3rem; 
     min-height: 200px;
     display: block;          
@@ -160,12 +158,57 @@ p{
 
     color: white;
     text-shadow: 
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
-
+        -2px -1px 0 #ffffff,  
+         3px -1px 0 #fffdfd,
+        -1px  1px 0 #ffffff,
+         1px  1px 0 #fffefe;
 }
+
+.share{
+    color: #fad17a;
+    font-size: 1rem; 
+    max-height: 200px;
+    display: block;          
+    margin: 20px auto; 
+    padding-top: 0px;
+    width: 80%;
+    max-width: 850px;
+    margin-bottom: 0;
+}
+
+.linkshare{
+    color: #fad17a;
+    font-size: 1.4rem; 
+    max-height: 40px;
+    display:flex;          
+    flex-direction: row;
+    margin: 20px auto; 
+    width: 80%;
+    max-width: 850px;
+    gap: 10px;
+}
+
+#sharebutton{
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 15%;
+    font-size: larger;
+    border-radius: 10%;
+    font-size: 70%;
+    padding: 5px 10px;
+}
+
+#sharebutton:hover {
+    background-color: #dbc07c; 
+}
+
+#logoshare{
+    margin-right: 10px;
+    width: 30%;
+    height: auto;
+}
+
 
 @media (max-width: 768px) {
     h1 {
@@ -180,13 +223,12 @@ p{
         margin: 0 auto;
     }
 
-    p, .maintxt, .lowtxt {
+    p, .maintxt, .lowtxt .separator{
         font-size: 1rem;
         width: 90%;
         margin: 15px auto;
     }
 
-    /* Image adjustments */
     .mainpicture,
     .secondpicture,
     .mainpictureami {
@@ -239,7 +281,7 @@ p{
         width: 95%;
     }
 
-    p, .maintxt, .lowtxt {
+    p, .maintxt, .lowtxt .separator {
         font-size: 0.9rem;
         width: 95%;
     }
