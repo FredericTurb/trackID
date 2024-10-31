@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Move font-family to body */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .headlink{
@@ -143,16 +143,16 @@ p{
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 2.5rem; /* Smaller font size for mobile */
+        font-size: 2.5rem;
     }
     
     .title {
-        font-size: 1.8rem; /* Adjust title size */
-        padding-top: 150px; /* Less top padding on mobile */
+        font-size: 1.8rem; 
+        padding-top: 150px; 
     }
 
     .lowtxt,
     .maintxt {
-        font-size: 1.1rem; /* Smaller font for text blocks */
+        font-size: 1.1rem; 
     }
 }

@@ -15,7 +15,7 @@ body{
 }
 
 h1{
-    color: #fad17a;
+    color: rgb(250, 209, 122);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: -0.05em;
     margin-left: 5%;
@@ -70,7 +70,9 @@ h1{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 8vh;
+    height: 5vh;
+    gap: 0;
+
     
 }
 
@@ -84,34 +86,38 @@ h1{
 }
 
 .facebook {
-    background-image: url(../images/fb.svg);
-    width: 50px;  
-    height: 45px;
+    background-image: url(../images/icons8-facebook-50.png);
+    width: 35px;  
+    height: 12px;
+    max-height: 32px;
+    padding-bottom: 19px;
 }
 
 .youtube {
-    background-image: url(../images/youtube-123.svg);
-    width: 30px;  
-    height: 35px;
+    background-image: url(../images/icons8-youtube-50.png);
+    width: 40px;  
+    height: 40px;
 }
 
 .instagram {
-    background-image: url(../images/black-instagram-transparent-logo-10671.svg);
+    background-image: url(../images/icons8-instagram-50.png);
     width: 30px; 
-    height: 35px; 
+    height: 30px; 
 }
 
 .soundcloud {
-    background-image: url(../images/soundcloud-logo-svgrepo-com.svg);
-    width: 50px;  
-    height: 35px; 
+    background-image: url(../images/icons8-soundcloud-50.png);
+    width: 40px;  
+    height: 39px;
+    max-height: 49px;
+    padding-bottom: -20px; 
 }
 
 .musicarticle{
     color: #fad17a;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: -0.05em;
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 200%;
     text-align: center;
     font-weight: bolder;
