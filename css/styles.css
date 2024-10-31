@@ -165,3 +165,41 @@ p{
     text-decoration: none; 
 }
 
+@media (max-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+
+    .intro, .click, .musicarticle {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 90%;
+    }
+
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .first {
+        font-size: 150%;
+    }
+
+    .links {
+        flex-direction: column; /* Stack links */
+    }
+
+    .links a {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        grid-template-columns: 1fr; /* One column layout */
+    }
+
+    .first {
+        font-size: 120%; /* Smaller text size */
+    }
+}
