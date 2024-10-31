@@ -134,5 +134,25 @@ p{
 }
 
 .drex{
-    margin-top: -10%;
+    margin-top: -2.5%;
+}
+
+#drexpic{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Smaller font size for mobile */
+    }
+    
+    .title {
+        font-size: 1.8rem; /* Adjust title size */
+        padding-top: 150px; /* Less top padding on mobile */
+    }
+
+    .lowtxt,
+    .maintxt {
+        font-size: 1.1rem; /* Smaller font for text blocks */
+    }
 }
