@@ -5,7 +5,8 @@ body{
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
-    margin: 0%;
+    margin: 0;
+    min-height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -215,6 +216,10 @@ p{
 }
 
 @media (max-width: 480px) {
+    body {
+        background-image: url('../images/summertime_image_mobile.webp');
+    }
+
     .content {
         grid-template-columns: 1fr; 
     }
@@ -222,17 +227,7 @@ p{
     .first {
         font-size: 120%; 
     }
-}
-@media (max-width: 768px) {
-    .part4 {
-        padding: 10px 0;
 
-    .bottom-footer-text {
-        font-size: 80%; 
-    }
-}}
-
-@media (max-width: 480px) {
     .part4 {
         padding: 5px 0; 
     }
@@ -240,18 +235,4 @@ p{
     .bottom-footer-text {
         font-size: 70%;
     }
-}
-@media (max-width: 768px) {
-    body {
-        background-size: cover; 
-        background-position: center; 
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        background-image: url('../images/summertime_image_mobile.webp');
-        background-size: cover;
-        background-position: center; 
-}
 }
