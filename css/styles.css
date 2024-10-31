@@ -1,7 +1,7 @@
 body{
     height: 185vh; 
     background-color: rgb(17, 13, 13);
-    background-image: url('./images/summertime_image.webp'); 
+    background-image: url('./../images/summertime_image.webp'); 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
