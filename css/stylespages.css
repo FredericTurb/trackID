@@ -137,9 +137,20 @@ p{
     margin-top: -2.5%;
 }
 
-#drexpic{
+.mainpicture,
+.secondpicture,
+.yt1,
+.yt2,
+.mainpictureami {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-}/* Mobile Devices */
+    max-width: 850px;
+    height: auto;
+}
+
+/* Mobile Devices */
 @media (max-width: 480px) {
     h1 {
         font-size: 1.4rem;
@@ -208,6 +219,35 @@ p{
         padding-top: 120px;
         width: 85%;
     }
+
+    p, .maintxt, .lowtxt {
+        font-size: 0.9rem;
+        width: 85%;
+    }
+
+    /* Media adjustments */
+    .mainpicture,
+    .secondpicture,
+    .yt1,
+    .yt2,
+    .mainpictureami {
+        width: 85%;
+    }
+    
+    .mainpicture,
+    .mainpictureami {
+        padding-top: 20px;
+    }
+    
+    .secondpicture img {
+        width: 85%;
+    }
+    
+    .yt1,
+    .yt2 {
+        margin: 15px auto;
+    }
+}
 
     p, .maintxt, .lowtxt {
         font-size: 0.9rem;
