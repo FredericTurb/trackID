@@ -180,7 +180,7 @@ p{
     .secondpicture,
     .yt1,
     .yt2 {
-        width: 92%;
+        width: 52%;
         max-width: none;
     }
     
@@ -200,12 +200,12 @@ p{
     }
     
     .secondpicture img {
-        width: 70%;
+        width: 50%;
     }
     
     .yt1,
     .yt2 {
-        margin-top: -30px;
+        margin-top: -40px;
         margin-bottom: 10px;
     }
 }
@@ -217,7 +217,7 @@ p{
     .yt1,
     .yt2,
     .mainpictureami {
-        width: 100%;
+        width: 40%;
     }
     
     .mainpicture,
@@ -226,12 +226,12 @@ p{
     }
     
     .secondpicture img {
-        width: 85%;
+        width: 45%;
     }
     
     .yt1,
     .yt2 {
-        margin-top: -20px;
+        margin-top: -40px;
         margin-bottom: 5px;
     }
 }
