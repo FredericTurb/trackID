@@ -26,6 +26,16 @@ h1{
     margin: 2%;
     margin-left: 5%;
     margin-bottom: 1%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
 }
 
 .intro{
@@ -185,7 +195,7 @@ p{
     }
 
     .links {
-        flex-direction: column; /* Stack links */
+        flex-direction: column; 
     }
 
     .links a {
@@ -196,45 +206,42 @@ p{
 
 @media (max-width: 480px) {
     .content {
-        grid-template-columns: 1fr; /* One column layout */
+        grid-template-columns: 1fr; 
     }
 
     .first {
-        font-size: 120%; /* Smaller text size */
+        font-size: 120%; 
     }
 }
 @media (max-width: 768px) {
     .part4 {
-        padding: 10px 0; /* Adjust padding for smaller screens */
-    }
+        padding: 10px 0;
 
     .bottom-footer-text {
-        font-size: 80%; /* Adjust font size for mobile */
+        font-size: 80%; 
     }
-}
+}}
 
 @media (max-width: 480px) {
     .part4 {
-        padding: 5px 0; /* Further adjust padding for extra small screens */
+        padding: 5px 0; 
     }
 
     .bottom-footer-text {
-        font-size: 70%; /* Smaller font size */
+        font-size: 70%;
     }
 }
 @media (max-width: 768px) {
     body {
-        background-image: url('./../images/summertime_image_mobile.webp'); /* Use a different image for mobile */
-        background-size: cover; /* Ensure it covers the entire area */
-        background-position: center; /* Center the image */
+        background-size: cover; 
+        background-position: center; 
     }
 }
 
 @media (max-width: 480px) {
     body {
-        background-image: url('./../images/summertime_image_mobile.webp'); /* You can change the image again if needed */
-        background-size: cover; /* Adjust size */
-        background-position: center; /* Center the image */
-    }
+        background-image: url('../images/summertime_image_mobile.webp');
+        background-size: cover;
+        background-position: center; 
 }
-
+}
