@@ -188,7 +188,7 @@ p{
     gap: 10px;
 }
 
-#sharebutton {
+#sharebutton, #sharebuttonf {
     display: flex; 
     align-items: center; 
     justify-content: flex-start; 
@@ -197,9 +197,10 @@ p{
     border-radius: 10%;
     font-size: 70%;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
-#sharebutton:hover {
+#sharebutton:hover, #sharebuttonf:hover{
     background-color: #dbc07c; 
 }
 
