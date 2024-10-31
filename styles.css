@@ -1,0 +1,133 @@
+body{
+    height: 185vh; 
+    background-image: url('./images/summertime_image.webp'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+h1{
+    color: #fad17a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -0.05em;
+    margin-left: 5%;
+    margin-top: 0%;
+    transform: scaleY(1.1);
+
+
+}
+
+.logo{
+    width: 4.5%;
+    height: auto;
+    border-radius: 50%;
+    margin: 2%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.intro{
+    display: flex;
+    text-align: left;
+    color: #fad17a;
+    margin-left: 27%;
+    margin-right: 27%;
+    font-size: 124%;
+    font-weight: lighter;
+}
+
+.click{
+    display: flex;
+    text-align: center;
+    color: #fad17a;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 130%;
+    font-weight: 110;
+    justify-content: center;
+    margin-top: 2%;
+    letter-spacing: em;
+}
+
+.links {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 8vh;
+    
+}
+
+.links a {
+    display: inline-block;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.facebook {
+    background-image: url(./images/fb.svg);
+    width: 50px;  
+    height: 45px;
+}
+
+.youtube {
+    background-image: url(./images/youtube-123.svg);
+    width: 30px;  
+    height: 35px;
+}
+
+.instagram {
+    background-image: url(./images/black-instagram-transparent-logo-10671.svg);
+    width: 30px; 
+    height: 35px; 
+}
+
+.soundcloud {
+    background-image: url(./images/soundcloud-logo-svgrepo-com.svg);
+    width: 50px;  
+    height: 35px; 
+}
+
+.musicarticle{
+    color: #fad17a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -0.05em;
+    margin-top: 3%;
+    font-size: 200%;
+    text-align: center;
+    font-weight: bolder;
+    transform: scaleY(1.1);
+}
+
+.content {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    gap: 4%; 
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.first{
+    color: #fad17a;
+    font-weight: bold;
+    letter-spacing: em;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.firsttext{
+    margin-top: 10%;
+    font-size: 50%;
+    font-weight: 100;
+}
+
+p{
+    font-size: 50%;
+    font-weight: 100;
+    margin-top: 15%;
+}
