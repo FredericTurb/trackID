@@ -2,6 +2,11 @@ body{
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Move font-family to body */
 }
+
+.headlink{
+    text-decoration: none;
+    color:inherit;
+}
 h1{
     color: #fad17a;
     letter-spacing: -0.05em;
@@ -24,7 +29,7 @@ h1{
     letter-spacing: em;
     min-height: 100px;
     margin: 0px auto; 
-    padding-top: 75px;
+    padding-top: 220px;
     padding-bottom: 0px;
 }
 p{
@@ -112,5 +117,22 @@ p{
     padding-top: 25px;
     width: 80%;
     max-width: 850px;
+}
 
+.mainpictureami{
+    display: block;          
+    margin-left: auto;      
+    margin-right: auto;    
+    width: 120%;
+    max-width: 850px;
+    height: auto;
+    padding-top: 75px;
+}
+
+.ami{
+    width: 100%;
+}
+
+.drex{
+    margin-top: -10%;
 }
