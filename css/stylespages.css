@@ -122,7 +122,7 @@ p{
 .mainpictureami{
     display: block;          
     margin-left: auto;      
-    margin-right: auto;    
+    margin-right: auto;     
     width: 120%;
     max-width: 850px;
     height: auto;
@@ -135,6 +135,36 @@ p{
 
 .drex{
     margin-top: -2.5%;
+}
+
+#gamble{
+    display: block;          
+    margin-left: auto;      
+    margin-right: auto;    
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    padding-top: 75px;
+}
+
+
+.separator{   
+    color: #fad17a;
+    display: block;          
+    margin: 20px auto; 
+    width: 80%;
+    max-width: 850px;
+    margin-bottom: 0;
+    border: white;
+    border-radius: 20px;
+
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+
 }
 
 @media (max-width: 768px) {
