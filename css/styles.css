@@ -133,10 +133,6 @@ p {
 
 
 
-
-
-
-
 @media (max-width: 768px) {
     .logo {
         width: 10%;
@@ -172,7 +168,10 @@ p {
 
 @media (max-width: 480px) {
     body {
-        background-image: url('../images/summertime_image_mobile.webp');
+        background-image: url('../images/summertime_image_mobile.webp'); /* Mobile background image */
+        background-size: cover; /* Ensure it covers the area */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent repeat */
     }
 
     .logo {
