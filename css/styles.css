@@ -70,25 +70,25 @@ h1{
 }
 
 .facebook {
-    background-image: url(./images/fb.svg);
+    background-image: url(./../images/fb.svg);
     width: 50px;  
     height: 45px;
 }
 
 .youtube {
-    background-image: url(./images/youtube-123.svg);
+    background-image: url(./../images/youtube-123.svg);
     width: 30px;  
     height: 35px;
 }
 
 .instagram {
-    background-image: url(./images/black-instagram-transparent-logo-10671.svg);
+    background-image: url(./../images/black-instagram-transparent-logo-10671.svg);
     width: 30px; 
     height: 35px; 
 }
 
 .soundcloud {
-    background-image: url(./images/soundcloud-logo-svgrepo-com.svg);
+    background-image: url(./../images/soundcloud-logo-svgrepo-com.svg);
     width: 50px;  
     height: 35px; 
 }
@@ -167,33 +167,30 @@ p{
 
 @media (max-width: 768px) {
     .logo {
-        width: 20%;
+        width: 20%; /* Adjust logo size on smaller screens */
     }
 
     .intro, .click, .musicarticle {
         margin-left: 5%;
         margin-right: 5%;
-        font-size: 90%;
+        font-size: 90%; /* Adjust text size for smaller screens */
     }
 
     .content {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
     }
 
     .first {
-        font-size: 150%;
+        font-size: 150%; /* Adjust font size for better readability */
     }
-
     .links {
         flex-direction: column; /* Stack links */
     }
-
     .links a {
-        width: 40px;
+        width: 40px; /* Make icons smaller */
         height: 40px;
     }
 }
-
 @media (max-width: 480px) {
     .content {
         grid-template-columns: 1fr; /* One column layout */
