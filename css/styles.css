@@ -168,10 +168,10 @@ p {
 
 @media (max-width: 480px) {
     body {
-        background-image: url('../images/summertime_image_mobile.webp'); /* Mobile background image */
-        background-size: cover; /* Ensure it covers the area */
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Prevent repeat */
+        background-image: url('../images/summertime_image_mobile.webp'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
     }
 
     .logo {
@@ -226,5 +226,66 @@ p {
     .bottom-footer-text {
         font-size: 14px;
         padding: 0 10px;
+    }
+}
+@media (max-width: 320px) {
+    body {
+        background-image: url('../images/summertime_image_mobile.webp'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+
+    .logo {
+        width: 30%; 
+        margin: 10px 5%;
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    .intro, .click {
+        font-size: 85%; 
+        margin: 10px 5%; 
+    }
+
+    .musicarticle {
+        font-size: 120%; 
+        margin: 15px 5%;
+    }
+
+    .content {
+        grid-template-columns: 1fr; 
+        gap: 10px; 
+        margin: 15px 5%; 
+    }
+
+    .first {
+        font-size: 110%; 
+        padding: 10px;
+    }
+
+    .firsttext {
+        margin-top: 6%;
+        font-size: 60%; 
+    }
+
+    .links {
+        padding: 10px 0; 
+    }
+
+    .links a {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .part4 {
+        padding: 10px 0;
+    }
+
+    .bottom-footer-text {
+        font-size: 12px; 
+        padding: 0 5px; 
     }
 }
